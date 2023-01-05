@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+header{
+    background-color: wheat;
+    height: 50vh;   
+}
+
+.container{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 72px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.left{
+    color:black ;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size:25px;
+    font-weight: 100;
+}
+.right{
+    color: black;
+
+}
+article{
+    background-color: wheat;
+    justify-content: center;
+    padding-left: 100px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    height: 50vh;
+}
+.picture{
+    display: flex;
+}
+img{
+    height:40vh ;
+    width: 90%;
+}
+@media only screen and (max-width: 400px){
+    .picture{
+      width: 1010px;
+    }
+}

@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Unbounded", cursive;
+}
+header{
+    background-color:#03321C ;
+    width: 100%;
+    display: flex;
+}
+.One{
+    padding-top: 20vh;
+    padding-left: 10vw;
+    width: 55%;
+    background-color: #03321C;
+    height: 468px;
+    float: left;
+}
+.One h1{
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 50px;
+    color: white;
+}
+.One h2{
+    font-size: 40px;
+    font-weight: 450;
+    line-height: 45px;
+    color: white;
+}
+.One p{
+    font-size: 18px;
+    margin-top: 25px;
+    color: white;
+}
+
+.Two p{
+   
+    margin-top: 130px;
+}
+.Three{
+    margin-top: 37px;
+}
+.Three a{
+    background-color:goldenrod ;
+    padding: 10px;
+    border: 3px solid #261714;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #261714;
+}
+.Three a:hover{
+    background-color: white;
+}
+.Four{
+    width: 45%;
+}
+.Four img{
+    height:100%;
+    width:100%;
+}
+@media (max-width:1254px) {
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+}
